@@ -151,17 +151,17 @@ Hi, I'm AlphaEinsteinium Engo_Df. I am a self-taught FRONT-END DEVELOPER and sch
 <p class="yam">Awesome!</p>
 <fieldset>
 <legend>Contact Details</legend>
+<label>Name:</br>
+<input type="text" name="Name" placeholder="Input your name" /></label></br>
 <label>Email:</br>
-<input type="text" name="Name" /></label></br>
-<label>Mobile:</br>
-<input type="text" name="email" /></label></br>
+<input type="text" name="email" placeholder="Email Address"/></label></br>
 <label>Telephone:</br>
-<input type="text" name="telephone" required="required"/></label></br>
+<input type="text" name="telephone" required="required"  placeholder="Telephone number"/></label></br>
 <p>
 <label for="comments">
 Comments:
 </label></br>
-<textarea cols="40" rows="4" id="comments">
+<textarea cols="40" rows="4" id="comments" placeholder="Your Text Goes Here">
 </textarea>
 </p>
 <label>
@@ -170,7 +170,7 @@ Sign me up for email updates
 </label></br>
 <a href="mailto: fosondu275@gmail.com">
 <input type="submit" 
- value="Submit Review" /></a>
+ value="Submit Review" required="required" /></a>
 </div>
 
 <div id="abody">
